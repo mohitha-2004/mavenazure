@@ -8,9 +8,9 @@ trigger:
 pool:
   name:Default
 steps:
-  - script: echo,hdgjgjvhjj
-    displayName: 'run echo'
+  - script: echo,ghghjhj
+    displayName: 'run echo command'
   - script: mvn clean install
-    displayName: 'run to build'
+    displayName: 'build proj'
   - script: java -jar target/mavenazure-0.0.1-SNAPSHOT.jar
     displayName: 'run jar file'
